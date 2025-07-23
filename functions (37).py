@@ -455,15 +455,6 @@ adding_list = [2 ,4]
  
 #print(calc_list(adding_list))
     
-    
-def list_com_cal(lists):
-    
-    calc = [lst for lst in lists if sum(lst)]
-    return calc
-    
-list_cal = [10, 20, 30]
-#print(list_com_cal(list_cal))
-    
 def compound_interest(interests, rate, n, time):
     list_interest = [interest * (1 + rate / n) ** (n * time)
         for interest in interests]
